@@ -1,0 +1,57 @@
+@import url("./variables.css");
+
+*,
+html,
+body {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.header-title {
+  text-transform: uppercase;
+  align-self: flex-start;
+  font-weight: 700;
+  margin: 3rem auto;
+}
+
+.header-desc {
+  font-size: var(--h3);
+  text-align: center;
+  color: #ffffff;
+  background-color: pink;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.header-img {
+  background-image: url("../media/background.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 40%;
+  position: relative;
+}
