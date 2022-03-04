@@ -4,22 +4,23 @@
   --midlight-pink: #e4d8dd;
   --middark-pink: #cfc0c5;
   --dark-pink: #b8999f;
+  --black: #000000;
+  --white: #ffffff;
 
-  --background-primary: var(--);
-  --background-secondary: var(--);
-  --card-background: var(--);
-  --card-text: var(--);
-  --text-primary: var(--);
-  --text-secondary: var(--);
+  --background-primary: var(--midlight-pink);
+  --header-primary: var(--light-pink);
+  --card-background: var(--dark-pink);
+  --card-text: var(--black);
+  --text-primary: var(--white);
+  --text-secondary: var(--black);
 
   --h1: 7rem;
-  --h2: 5rem;
-  --h3: 3.4rem;
-  --h4: 2.25rem;
+  --h2: 5.5rem;
+  --h3: 3rem;
+  --h4: 2.5rem;
   --h5: 1.5rem;
   --h6: 0.8rem;
 
-  --container-padding: 2.5%;
   --header-height: 3rem;
   --border-radius: 10px;
 }
