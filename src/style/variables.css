@@ -1,17 +1,18 @@
 :root {
   --blue: #d6dde3;
+  --pink #f8f7f7;
   --light-pink: #f0eaee;
-  --midlight-pink: #e4d8dd;
   --middark-pink: #cfc0c5;
   --dark-pink: #b8999f;
+  --dark-pink-2: #66474d;
   --black: #000000;
   --white: #ffffff;
 
-  --background-primary: var(--midlight-pink);
-  --header-primary: var(--light-pink);
+  --background-primary: var(--light-pink);
+  --header-primary: var(--pink);
   --card-background: var(--dark-pink);
   --card-text: var(--black);
-  --text-primary: var(--white);
+  --text-primary: var(--dark-pink-2);
   --text-secondary: var(--black);
 
   --h1: 7rem;

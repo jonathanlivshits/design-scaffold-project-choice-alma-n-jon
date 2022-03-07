@@ -21,6 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  color: var(--text-primary);
 }
 
 .header-container {
@@ -33,17 +34,14 @@ body {
 
 .header-title {
   font-size: var(--h2);
-  font-weight: 600;
-  margin-bottom: 10rem;
-  margin-left: 40rem;
+  font-weight: 550;
+  margin-bottom: 10%;
 }
 
 .header-img {
-  background-image: url("../media/background.jpg");
-  background-size: cover;
-  height: 100%;
-  width: 40%;
-  position: relative;
+  background-image: url("../media/home-img.jfif");
+  background-position: center;
+  background-size: 100%;
 }
 
 .desk {
