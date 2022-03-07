@@ -60,13 +60,29 @@ body {
   height: 100%;
 }
 
-.nav-item-desk,
-.nav-item-desk:visited,
-.nav-item-desk:link {
+.nav-item-desk-theme,
+.nav-item-desk-blogs,
+.nav-item-desk-theme:visited,
+.nav-item-desk-blogs:visited,
+.nav-item-desk-theme:link,
+.nav-item-desk-blogs:link {
   font-size: var(--h4);
   font-weight: 550;
   margin: 1rem 0;
   padding: 1rem 2rem;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.nav-item-desk-home,
+.nav-item-desk-home:visited,
+.nav-item-desk-home:link {
+  font-size: var(--h4);
+  font-weight: 550;
+  margin: 1rem 1rem;
+  padding: 1rem 2rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  text-transform: uppercase;
+}

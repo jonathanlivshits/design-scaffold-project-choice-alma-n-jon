@@ -1,6 +1,6 @@
 :root {
   --blue: #d6dde3;
-  --pink #f8f7f7;
+  --pink: #f8f7f7;
   --light-pink: #f0eaee;
   --middark-pink: #cfc0c5;
   --dark-pink: #b8999f;
@@ -8,8 +8,8 @@
   --black: #000000;
   --white: #ffffff;
 
-  --background-primary: var(--light-pink);
   --header-primary: var(--pink);
+  --background-primary: var(--light-pink);
   --card-background: var(--dark-pink);
   --card-text: var(--black);
   --text-primary: var(--dark-pink-2);
