@@ -1,19 +1,17 @@
 :root {
-  --blue: #d6dde3;
-  --pink: #f8f7f7;
-  --light-pink: #f0eaee;
-  --middark-pink: #cfc0c5;
-  --dark-pink: #b8999f;
-  --dark-pink-2: #66474d;
-  --black: #000000;
-  --white: #ffffff;
+  --white: #f8f7f7;
+  --pale-pink: #f0eaee;
+  --pale-blue: #EAECF0  
+  --dark-pink: #e4d8dd;
+  --dark-blue: #D8DBE4
+  --brown: #66474d;
 
-  --header-primary: var(--pink);
-  --background-primary: var(--light-pink);
+  --header-primary: var(--white);
+  --background-primary: var(--pale-pink);
   --card-background: var(--dark-pink);
-  --card-text: var(--black);
-  --text-primary: var(--dark-pink-2);
-  --text-secondary: var(--black);
+  --card-text: var(--brown);
+  --text-primary: var(--brown);
+  --text-secondary: var(--brown);
 
   --h1: 7rem;
   --h2: 5.5rem;
