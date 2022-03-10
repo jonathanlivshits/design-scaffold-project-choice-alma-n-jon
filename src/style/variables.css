@@ -6,6 +6,7 @@
   --dark-blue: #D8DBE4
   --brown: #66474d;
 
+
   --header-primary: var(--white);
   --background-primary: var(--pale-pink);
   --card-background: var(--dark-pink);
@@ -22,6 +23,18 @@
 
   --header-height: 3rem;
   --border-radius: 10px;
+}
+.cute {
+  --primary: var(--pale-pink);
+  --secondary: var(--dark-pink);
+  --tertiary: var(--white);
+  --quarternary:var(--brown);
+}
+.cool {
+  --primary: var(--pale-blue);
+  --secondary: var(--dark-blue);
+  --tertiary: var(--white);
+  --quarternary: var(--brown);
 }
 
 h1 {
