@@ -32,7 +32,7 @@ body {
 }
 
 .header-title {
-  font-size: var(--h2);
+  font-size: var(--h1);
   font-weight: 550;
 }
 
@@ -78,37 +78,91 @@ body {
   text-transform: uppercase;
 }
 
-.section-container {
+.blogs-header {
+  width: 100%;
+  margin: 0 auto;
+  height: 20vh;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f0eaee;
+}
+
+.blogs-header-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 90%;
+  width: 100%;
 }
 
-.articles {
+.blogs-header-title {
+  font-size: var(--h1);
+  font-weight: 400;
+  font-family: "EB Garamond", serif;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
   color: var(--text-primary);
 }
 
+.article {
+  color: var(--text-primary);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.article-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+  height: 40rem;
+  margin: 1rem auto;
+  background-color: #e4d8dd;
+  color: #66474d;
+  align-items: center;
+  border-radius: 2rem;
+}
+
 .article-title {
-  margin-top: 5rem;
-  font-size: var(--h3);
+  margin-top: 4.5rem;
+  font-size: var(--h2);
   font-weight: 520;
 }
 
 .article-author {
-  font-size: var(--h5);
+  font-size: var(--h4);
   font-weight: 500;
 }
 
 .article-date {
-  margin-bottom: 1.5rem;
-  font-size: var(--h5);
+  font-size: var(--h4);
   font-weight: 500;
 }
 
-.article-link {
-  margin-bottom: 1.5rem;
+.btn,
+.btn:link,
+.btn:visited {
+  font-family: "EB Garamond", serif;
+  color: #66474d;
   font-size: var(--h5);
-  font-weight: 450;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  margin: 1rem auto;
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  background-color: var(--button-background);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .img-preview {

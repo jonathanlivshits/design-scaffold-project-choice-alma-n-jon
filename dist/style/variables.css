@@ -8,13 +8,14 @@
 
   --header-primary: var(--white);
   --background-primary: var(--pale-pink);
+  --button-background: var(--white);
   --card-background: var(--dark-pink);
   --card-text: var(--brown);
   --text-primary: var(--brown);
   --text-secondary: var(--brown);
 
-  --h1: 7rem;
-  --h2: 5.5rem;
+  --h1: 5.5rem;
+  --h2: 3.5rem;
   --h3: 3rem;
   --h4: 2.2rem;
   --h5: 1.9rem;
