@@ -1,18 +1,20 @@
 :root {
   --white: #f8f7f7;
   --pale-pink: #f0eaee;
-  --pale-blue: #EAECF0  
+  --pale-blue: #eaecf0;
   --dark-pink: #e4d8dd;
-  --dark-blue: #D8DBE4
+  --dark-blue: #d8dbe4;
   --brown: #66474d;
 
   --header-primary: var(--white);
+  --header-secondary: var(--);
   --background-primary: var(--pale-pink);
+  --background-secondary: var(--);
+  --text-primary: var(--brown);
+  --text-secondary: var(--);
   --button-background: var(--white);
   --card-background: var(--dark-pink);
   --card-text: var(--brown);
-  --text-primary: var(--brown);
-  --text-secondary: var(--brown);
 
   --h1: 5.5rem;
   --h2: 3.5rem;
@@ -20,9 +22,6 @@
   --h4: 2.2rem;
   --h5: 1.9rem;
   --h6: 0.8rem;
-
-  --header-height: 3rem;
-  --border-radius: 10px;
 }
 
 h1 {
