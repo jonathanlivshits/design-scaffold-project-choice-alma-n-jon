@@ -9,16 +9,3 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
-
-const themer_btn = document.getElementById("themer");
-function themeFunction() {
-  if (document.body.classList.contains("cute")) {
-    document.body.classList.remove("cute");
-    document.body.classList.add("cool");
-    themer_btn.innerHTML = "Theme";
-  } else {
-    document.body.classList.remove("cool");
-    document.body.classList.add("cute");
-    themer_btn.innerHTML = "Theme";
-  }
-}
