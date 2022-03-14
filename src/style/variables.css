@@ -1,9 +1,9 @@
 :root {
   --white: #f8f7f7;
   --pale-pink: #f0eaee;
-  --pale-blue: #EAECF0  
+  --pale-blue: #eaecf0;
   --dark-pink: #e4d8dd;
-  --dark-blue: #D8DBE4
+  --dark-blue: #d8dbe4;
   --brown: #66474d;
 
   --header-primary: var(--white);
@@ -22,6 +22,18 @@
 
   --header-height: 3rem;
   --border-radius: 10px;
+}
+.cute {
+  --primary: var(--pale-pink);
+  --secondary: var(--dark-pink);
+  --tertiary: var(--white);
+  --quarternary: var(--brown);
+}
+.cool {
+  --primary: var(--pale-blue);
+  --secondary: var(--dark-blue);
+  --tertiary: var(--white);
+  --quarternary: var(--brown);
 }
 
 h1 {
