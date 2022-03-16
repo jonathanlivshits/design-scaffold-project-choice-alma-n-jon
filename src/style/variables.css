@@ -7,14 +7,14 @@
   --brown: #66474d;
 
   --header-primary: var(--white);
-  --header-secondary: var(--);
   --background-primary: var(--pale-pink);
-  --background-secondary: var(--);
   --text-primary: var(--brown);
-  --text-secondary: var(--);
-  --button-background: var(--white);
   --card-background: var(--dark-pink);
   --card-text: var(--brown);
+  --button-primary: var(--white);
+  --header-secondary: var(--);
+  --background-secondary: var(--);
+  --text-secondary: var(--);
 
   --h1: 5.5rem;
   --h2: 3.5rem;
