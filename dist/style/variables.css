@@ -13,9 +13,8 @@
   --card-background-secondary: var(--dark-blue);
   --card-text: var(--brown);
   --button-primary: var(--light-white);
-  --header-secondary: var(--pale-blue);
-  --background-secondary: var(--);
-  --text-secondary: var(--);
+  --header-secondary: var(--light-white);
+  --background-secondary: var(--pale-blue);
 
   --h1: 5.5rem;
   --h2: 3.5rem;
@@ -35,12 +34,12 @@
 }
 
 .blue-theme {
-  --header-secondary: var(--pale-blue);
-  --background-secondary: var(--);
-  --text-secondary: var(--);
+  --header-secondary: var(--light-white);
+  --background-secondary: var(--pale-blue);
+  --text-primary: var(--brown);
   --card-background-secondary: var(--dark-blue);
   --card-text: var(--brown);
-  --button-primary: var(--white);
+  --button-primary: var(--light-white);
 }
 
 h1 {
