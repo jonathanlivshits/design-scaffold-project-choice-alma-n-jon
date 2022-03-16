@@ -42,18 +42,6 @@
   --card-text: var(--brown);
   --button-primary: var(--white);
 }
-.cute {
-  --primary: var(--pale-pink);
-  --secondary: var(--dark-pink);
-  --tertiary: var(--white);
-  --quarternary: var(--brown);
-}
-.cool {
-  --primary: var(--pale-blue);
-  --secondary: var(--dark-blue);
-  --tertiary: var(--white);
-  --quarternary: var(--brown);
-}
 
 h1 {
   margin-top: 0;
