@@ -4,11 +4,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articles</title>
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
-<body>
+<body class="pink-theme">
     {% include 'nav.njk' %}
     <section class="section-container">
+        <header class="blogs-header">
+            <div class="blogs-header-container">
+                <h1 class="blogs-header-title">
+                    Desserts
+                </h1>
+            </div>
         <ul class="articles">
             {%- for post in collections.post -%}
                 <article class="article">
