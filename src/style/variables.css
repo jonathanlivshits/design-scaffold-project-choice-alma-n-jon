@@ -1,18 +1,19 @@
 :root {
-  --white: #f8f7f7;
+  --light-white: #f8f7f7;
   --pale-pink: #f0eaee;
   --pale-blue: #eaecf0;
   --dark-pink: #e4d8dd;
   --dark-blue: #d8dbe4;
   --brown: #66474d;
 
-  --header-primary: var(--white);
+  --header-primary: var(--light-white);
   --background-primary: var(--pale-pink);
   --text-primary: var(--brown);
-  --card-background: var(--dark-pink);
+  --card-background-primary: var(--dark-pink);
+  --card-background-secondary: var(--dark-blue);
   --card-text: var(--brown);
-  --button-primary: var(--white);
-  --header-secondary: var(--);
+  --button-primary: var(--light-white);
+  --header-secondary: var(--pale-blue);
   --background-secondary: var(--);
   --text-secondary: var(--);
 
@@ -22,6 +23,24 @@
   --h4: 2.2rem;
   --h5: 1.9rem;
   --h6: 0.8rem;
+}
+
+.pink-theme {
+  --header-primary: var(--light-white);
+  --background-primary: var(--pale-pink);
+  --text-primary: var(--brown);
+  --card-background-primary: var(--dark-pink);
+  --card-text: var(--brown);
+  --button-primary: var(--light-white);
+}
+
+.blue-theme {
+  --header-secondary: var(--pale-blue);
+  --background-secondary: var(--);
+  --text-secondary: var(--);
+  --card-background-secondary: var(--dark-blue);
+  --card-text: var(--brown);
+  --button-primary: var(--white);
 }
 
 h1 {
