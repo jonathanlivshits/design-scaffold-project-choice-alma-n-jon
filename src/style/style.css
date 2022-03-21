@@ -161,7 +161,7 @@ body {
   border: none;
   border-radius: 1rem;
   transition: all 0.2s;
-  background-color: var(--button-background);
+  background-color: var(--button-primary);
   margin-right: 40rem;
 }
 
