@@ -6,17 +6,6 @@
   --dark-blue: #d8dbe4;
   --brown: #66474d;
 
-  --header-primary: var(--light-white);
-  --background-primary: var(--pale-pink);
-  --text-primary: var(--brown);
-  --card-background-primary: var(--dark-pink);
-  --card-background-secondary: var(--dark-blue);
-  --card-text: var(--brown);
-  --button-primary: var(--light-white);
-  --header-secondary: var(--pale-blue);
-  --background-secondary: var(--);
-  --text-secondary: var(--);
-
   --h1: 5.5rem;
   --h2: 3.5rem;
   --h3: 3rem;
@@ -26,21 +15,19 @@
 }
 
 .pink-theme {
-  --header-primary: var(--light-white);
-  --background-primary: var(--pale-pink);
-  --text-primary: var(--brown);
-  --card-background-primary: var(--dark-pink);
-  --card-text: var(--brown);
-  --button-primary: var(--light-white);
+  --header: var(--light-white);
+  --background: var(--pale-pink);
+  --text: var(--brown);
+  --card-background: var(--dark-pink);
+  --button: var(--light-white);
 }
 
 .blue-theme {
-  --header-secondary: var(--light-white);
-  --background-secondary: var(--pale-blue);
-  --text-secondary: var(--brown);
-  --card-background-secondary: var(--dark-blue);
-  --card-text: var(--brown);
-  --button-primary: var(--light-white);
+  --header: var(--light-white);
+  --background: var(--pale-blue);
+  --text: var(--brown);
+  --card-background: var(--dark-blue);
+  --button: var(--light-white);
 }
 
 h1 {

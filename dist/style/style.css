@@ -11,7 +11,7 @@ body {
 
 body {
   font-family: "EB Garamond", serif;
-  background-color: var(--background-primary);
+  background-color: var(--background);
 }
 
 .header {
@@ -20,7 +20,7 @@ body {
   height: 20vh;
   align-items: center;
   justify-content: space-evenly;
-  color: var(--text-primary);
+  color: var(--text);
 }
 
 .header-container {
@@ -46,7 +46,7 @@ body {
 }
 
 .desk {
-  background-color: var(--header-primary);
+  background-color: var(--header);
   width: 100%;
   height: 6.5vh;
   display: flex;
@@ -73,7 +73,7 @@ body {
   font-size: var(--h4);
   margin: 1rem 0;
   padding: 1rem 2rem;
-  color: var(--text-primary);
+  color: var(--text);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -84,7 +84,7 @@ body {
   height: 20vh;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #f0eaee;
+  background-color: var(--background);
 }
 
 .blogs-header-container {
@@ -104,11 +104,11 @@ body {
 .section-container {
   display: flex;
   justify-content: center;
-  color: var(--text-primary);
+  color: var(--text);
 }
 
 .article {
-  color: var(--text-primary);
+  color: var(--text);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -122,11 +122,11 @@ body {
   width: 43%;
   height: 40rem;
   margin: 2rem auto;
-  background-color: #e4d8dd;
-  color: #66474d;
+  background-color: var(--card-background);
+  color: var(--text);
   align-items: center;
   border-radius: 2rem;
-  box-shadow: 0px 2px 2px #66474d;
+  box-shadow: 0px 2px 2px var(--text);
 }
 
 .article-title {
@@ -152,7 +152,7 @@ body {
 .btn:link,
 .btn:visited {
   font-family: "EB Garamond", serif;
-  color: #66474d;
+  color: var(--text);
   font-size: var(--h5);
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -161,7 +161,7 @@ body {
   border: none;
   border-radius: 1rem;
   transition: all 0.2s;
-  background-color: var(--button-primary);
+  background-color: var(--button);
   margin-right: 40rem;
 }
 
