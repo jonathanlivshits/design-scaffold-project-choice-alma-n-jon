@@ -177,3 +177,56 @@ body {
   margin-left: 16.5rem;
   border-radius: 10px;
 }
+
+.main-title {
+  font-size: var(--h1);
+  color: var(--text-primary);
+  font-weight: 450;
+  width: 100%;
+  margin-top: 4rem;
+  height: 20vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.figure-image {
+  position: absolute;
+  width: 582px;
+  height: 370px;
+  margin-top: -4rem;
+  margin-left: 67rem;
+  border-radius: 10px;
+}
+
+.article-description {
+  position: absolute;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 67rem;
+  margin-top: 60rem;
+  color: var(--text-primary);
+}
+
+.main-author {
+  position: absolute;
+  font-size: var(--h4);
+  font-weight: 520;
+  margin-left: 67rem;
+  margin-top: 35rem;
+  color: var(--text-primary);
+}
+
+.main-date {
+  position: absolute;
+  font-size: var(--h4);
+  font-weight: 520;
+  margin-left: 67rem;
+  margin-top: 39rem;
+  color: var(--text-primary);
+}
