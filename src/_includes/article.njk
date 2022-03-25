@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body class="pink-theme">
+    {% include 'nav.njk' %}
+    <h1 class="main-title">{{title}}</h1>
+    <article class="main-article">
+        <img src="{{image}}" alt="{{imageAlt}}" class="figure-image">
+        <h4 class="main-date">Date: {{date | postDate}}</h4>
+        <h4 class="main-author">By: {{author}}</h4>
+        <h4 class="article-description">{{description}}</h4>
+    {{content | safe}}
+    </article>
+</body>
+</html>
