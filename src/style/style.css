@@ -186,15 +186,14 @@ body {
   margin-top: 4rem;
   height: 20vh;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .figure-image {
   position: absolute;
-  width: 582px;
+  width: 555px;
   height: 370px;
   margin-top: -4rem;
-  margin-left: 67rem;
+  margin-left: 68rem;
   border-radius: 10px;
 }
 
@@ -202,14 +201,15 @@ body {
   position: absolute;
   border-radius: 10px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 65px;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 55px;
   display: flex;
-  align-items: center;
-  text-align: center;
-  margin-left: 67rem;
-  margin-top: 60rem;
+  align-items: left;
+  text-align: left;
+  margin-left: 14rem;
+  margin-top: 47rem;
+  margin-right: 9rem;
   color: var(--text-primary);
 }
 
@@ -217,7 +217,7 @@ body {
   position: absolute;
   font-size: var(--h4);
   font-weight: 520;
-  margin-left: 67rem;
+  margin-left: 68rem;
   margin-top: 35rem;
   color: var(--text-primary);
 }
@@ -226,7 +226,7 @@ body {
   position: absolute;
   font-size: var(--h4);
   font-weight: 520;
-  margin-left: 67rem;
+  margin-left: 68rem;
   margin-top: 39rem;
   color: var(--text-primary);
 }
