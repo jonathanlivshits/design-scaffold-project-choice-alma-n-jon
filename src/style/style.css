@@ -119,7 +119,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 43%;
+  width: 80rem;
   height: 40rem;
   margin: 2rem auto;
   background-color: var(--card-background);
@@ -190,7 +190,7 @@ body {
 
 .figure-image {
   position: absolute;
-  width: 555px;
+  width: 55.5rem;
   height: 370px;
   margin-top: -4rem;
   margin-left: 68rem;
@@ -229,4 +229,11 @@ body {
   margin-left: 68rem;
   margin-top: 39rem;
   color: var(--text-primary);
+}
+
+@media screen and (max-width: 1420px) {
+.article-text: 
+}
+
+@media screen and (max-width: 950px) {
 }

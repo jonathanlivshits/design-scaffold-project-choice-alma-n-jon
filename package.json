@@ -23,5 +23,8 @@
   "description": "",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "netlify-cms-app": "^2.15.70"
   }
 }
