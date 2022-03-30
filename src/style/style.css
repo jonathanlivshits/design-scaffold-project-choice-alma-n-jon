@@ -232,8 +232,70 @@ body {
 }
 
 @media screen and (max-width: 1420px) {
-.article-text: 
+  .article-text {
+    width: 45%;
+  }
+  .article-title {
+    font-size: var(--h2);
+  }
+  .img-preview {
+  }
+  .article-author {
+    font-size: var(--h4);
+  }
+  .article-date {
+    font-size: var(--h4);
+  }
+  .article-link {
+    font-size: var(--h2);
+  }
 }
 
 @media screen and (max-width: 950px) {
+  .article-text {
+    width: 70%;
+  }
+  .article-title {
+    font-size: var(--h2);
+  }
+  .img-preview {
+  }
+  .article-author {
+    font-size: var(--h4);
+    margin-left: 15rem;
+  }
+  .article-date {
+    font-size: var(--h4);
+    margin-left: 20rem;
+  }
+  .article-link {
+    font-size: var(--h4);
+    margin-left: 15rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .article-text {
+    width: 95%;
+  }
+  .article-title {
+    font-size: var(--h3);
+    margin-left: 15rem;
+  }
+  .img-preview {
+    width: 25rem;
+    height: 25rem;
+  }
+  .article-author {
+    font-size: var(--h5);
+    margin-left: 15rem;
+  }
+  .article-date {
+    font-size: var(--h5);
+    margin-left: 15rem;
+  }
+  .article-link {
+    font-size: var(--h5);
+    margin-left: 15rem;
+  }
 }
