@@ -11,6 +11,6 @@ function themeFunction() {
   }
 }
 
-document.getElementById("themer").addEventListener("click", themeFunction);
+/* document.getElementById("themer").addEventListener("click", themeFunction); */
 
 console.log("Hello");
