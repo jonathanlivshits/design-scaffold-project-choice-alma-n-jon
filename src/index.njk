@@ -19,6 +19,17 @@
         </div>
         <div class="header-img" id="header-img-main"></div>
     </header>
-    <script src="./main.js"></script>
+    <script src="./main.js">
+         if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+    </script>
+    
 </body>
 </html>
