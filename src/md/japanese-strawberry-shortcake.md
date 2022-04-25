@@ -2,7 +2,7 @@
 title: Japanese Strawberry Shortcake
 description: "Manhattan, New York "
 author: Alma
-date: 2022-11-09
+date: 2022-11-08T05:00:00.000Z
 tags:
   - post
   - featured
