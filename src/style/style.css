@@ -301,3 +301,8 @@ body {
     margin-left: 15rem;
   }
 }
+
+p {
+  color: red;
+  font-size: 500px;
+}
