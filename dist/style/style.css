@@ -199,17 +199,15 @@ body {
 
 .article-description {
   position: absolute;
-  border-radius: 10px;
   font-style: normal;
   font-weight: 350;
   font-size: 25px;
-  line-height: 55px;
+  line-height: 50px;
   display: flex;
   align-items: left;
   text-align: left;
-  margin-left: 14rem;
-  margin-top: 47rem;
-  margin-right: 9rem;
+  margin-left: 88rem;
+  margin-top: -10rem;
   color: var(--text-primary);
 }
 
@@ -300,4 +298,20 @@ body {
     font-size: var(--h5);
     margin-left: 15rem;
   }
+}
+
+p {
+  position: absolute;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 55px;
+  display: flex;
+  align-items: left;
+  text-align: left;
+  margin-left: 14rem;
+  margin-top: 47rem;
+  margin-right: 9rem;
+  color: var(--text-primary);
 }
