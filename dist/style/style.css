@@ -260,8 +260,9 @@ body {
     margin-left: 8rem;
   }
   .img-preview {
-    width: 30rem;
-    height: 30rem;
+    width: 25rem;
+    height: 25rem;
+    margin-right: 5rem;
   }
   .article-author {
     font-size: var(--h4);
@@ -283,30 +284,58 @@ body {
 @media screen and (max-width: 600px) {
   .article-text {
     width: 95%;
+    height: 100%;
   }
   .article-title {
-    font-size: var(--h3);
-    margin-left: 15rem;
+    font-size: var(--h4);
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+    width: 100%;
   }
   .img-preview {
-    width: 28rem;
-    height: 20rem;
-    padding-right: 9rem;
+    width: 30%;
+    height: 20%;
+    margin-left: 9rem;
   }
   .article-author {
-    font-size: var(--h5);
-    margin-left: 15rem;
+    font-size: var(--h7);
+    font-weight: 500;
+    margin-left: 25rem;
+    width: 100%;
   }
   .article-date {
-    font-size: var(--h5);
-    margin-left: 15rem;
+    font-size: var(--h7);
+    margin-left: 25rem;
+    width: 100%;
   }
   .article-link {
-    font-size: var(--h5);
-    margin-left: 15rem;
+    font-size: var(--h7);
+    margin-left: 25rem;
   }
   .desk-nav {
     width: 95%;
+  }
+  .header-title {
+    font-size: var(--h2);
+    margin-top: 7rem;
+  }
+  .header-img {
+    margin-top: 2.5rem;
+  }
+  .blogs-header {
+    font-size: var(--h2);
+  }
+  .main-title {
+    font-size: var(--h2);
+    margin-left: 1rem;
+  }
+  .figure-image {
+    width: 74%;
+    height: 40%;
+    margin-left: 5.5rem;
+  }
+  p {
+    font-size: var(--h6);
   }
 }
 
