@@ -260,9 +260,9 @@ body {
     margin-left: 8rem;
   }
   .img-preview {
-    width: 25rem;
-    height: 25rem;
-    margin-right: 5rem;
+    width: 30%;
+    height: 20%;
+    margin-left: 9rem;
   }
   .article-author {
     font-size: var(--h4);
@@ -276,8 +276,36 @@ body {
     font-size: var(--h4);
     margin-left: 8rem;
   }
+  .article-description {
+    font-size: var(--h3);
+    margin-left: 30rem;
+  }
   .desk-nav {
+    width: 100%;
+    align-items: center;
+  }
+  .main-title {
+    font-size: var(--h1);
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .main-author {
+    font-size: var(--h4);
+    margin-left: 14rem;
+    padding-top: 5rem;
+  }
+  .main-date {
+    font-size: var(--h4);
+    margin-left: 14rem;
+    padding-top: 5rem;
+  }
+  .figure-image {
     width: 70%;
+    height: 35%;
+    margin-left: 12rem;
+  }
+  p {
+    padding-top: 5rem;
   }
 }
 
@@ -312,6 +340,10 @@ body {
     font-size: var(--h7);
     margin-left: 25rem;
   }
+  .article-description {
+    font-size: var(--h5);
+    margin-left: 12rem;
+  }
   .desk-nav {
     width: 95%;
   }
@@ -331,16 +363,16 @@ body {
   }
   .figure-image {
     width: 74%;
-    height: 40%;
+    height: 35%;
     margin-left: 5.5rem;
   }
-  p {
-    font-size: var(--h6);
+  .p {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
 p {
-  position: absolute;
   border-radius: 1rem;
   font-style: normal;
   font-weight: 350;
