@@ -8,5 +8,6 @@ function themeFunction(event) {
     document.body.classList.remove("blue-theme");
     document.body.classList.add("pink-theme");
   }
+  console.log("hello");
 }
-document.getElementById("themer").addEventListener("click", themeFunction);
+themer_btn.addEventListener("click", themeFunction);
