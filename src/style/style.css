@@ -78,6 +78,10 @@ body {
   text-transform: uppercase;
 }
 
+.nav-item-desk-theme:hover {
+  cursor: pointer;
+}
+
 .blogs-header {
   width: 100%;
   margin: 0 auto;
